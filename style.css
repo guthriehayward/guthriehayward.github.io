@@ -1,18 +1,21 @@
 .summary{
-  background-color: #b3b3b3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: green;
+.intro{
   color: white;
-  text-align: center;
+  font: arial;
+  font-size: 4vw;
 }
 
-.footerLinks{
-  text-align: left;
-
+html{
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
